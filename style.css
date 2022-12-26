@@ -1,0 +1,52 @@
+hr {
+    border-style:  none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color:grey;
+    width: 5%;
+}
+
+.image{
+    border-radius: 100%; 
+    width: 200px;
+    height: 200px;
+}
+body{
+    background-color: azure;
+}
+h1  {
+    color: #66BFBF;
+} 
+h2 {
+    color: #66BFBF;
+}
+h3 {
+    color: #66BFBF;
+}
+.home{
+    position: relative;
+    left: 1300px;
+}
+/**********************SELECTORS*************************/
+/*******************TAG SELECTORS *******************/
+/* specific to all tags
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%;
+} */
+
+/*******************CLASS SELECTORS *******************/
+/* specific to elements of a specific class
+ .school{
+     }
+*/
+
+/*******************ID SELECTORS *******************/
+
+/* specific to a single individual element and overrides other previous styles
+#shool{
+}
+ */
