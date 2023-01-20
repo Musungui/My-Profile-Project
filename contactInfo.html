@@ -10,17 +10,17 @@
     <p>Town: Kilgoris</p>
     
     <h3>Your comments</h3>
-    <form action="mailto:leshanmsungui@gmail.com" method="post">
+    <form action="mailto:leshanmsungui@gmail.com" method="post" enctype="text/plain">
       <label for="name"> Your name:</label>
-      <input type="text"  /><br />
+      <input type="text" name="YourName"  ><br />
       <label for="email">Email</label>
-      <input type="text"  /><br />
+      <input type="text" name="YourEmail" /><br />
       <label for="file">Choose file to share</label>
-       <input type="file"  /><br />
+       <input type="file" name="File"  /><br />
       <label for="remember">Remember Me</label>
-      <input type="checkbox" /><br />
+      <input type="checkbox"  /><br />
       <label for="comments">Your comment</label>
-      <textarea rows="10" cols="30">Enter text here</textarea><br />
+      <textarea  name="YourComment"rows="10" cols="30">Enter text here</textarea><br />
       <input type="submit" />
     </form>
   </body>
