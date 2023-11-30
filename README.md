@@ -35,7 +35,12 @@ Confirmation page displayed after successfully submitting the contact form.
 - The profile image is located in the `image/` directory.
 - Styling for the pages is defined in the `style.css` file.
 
-Feel free to explore the different pages and sections!
+## Access the Deployed Site
+
+Visit the deployed site to explore My sample profile:
+
+[**My Profile Project**](https://musungui.github.io/My-Profile-Project/)
+
 
 
 Enjoy exploring the profile😊😊!
